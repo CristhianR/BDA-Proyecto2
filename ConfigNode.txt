@@ -1,0 +1,24 @@
+npm init -y
+npm i --save-dev babel-cli babel-preset-env
+npm i --save-dev babel-watch
+npm i express
+npm i mongoose
+npm i cors
+npm run dev   ("dev": "babel-watch server.js")
+
+.babelrc
+{
+    "presets": ["env"]
+}
+
+{
+	"Titulo": "JJJ",
+    "Genero": "Ciencia Ficción",
+    "Director": "Axel ak7",
+    "Franquicia": "FOO",
+    "Pais": "USA",
+    "Estreno": 2014,
+    "Duracion": 115,
+    "ProductoraObj": {"Nombre":"Y-Files","Fundacion":"2009","DireccionWeb":"www.yfiles.com"},
+    "Actores": ["Morgan","Dito","Blade","Agmark","Nero"]
+}
